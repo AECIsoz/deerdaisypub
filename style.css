@@ -1,0 +1,24 @@
+/* universal styles =====================================*/
+body {
+    background-color: #fadcd9;
+}
+
+/* main container =======================================*/
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 150px;
+}
+h2 {
+    font-family: 'Petit Formal Script', cursive;
+    font-weight: 300;
+    text-align: right;
+}
+.main-image {
+    background-image: url('./resources/A_black_labrador_sits_quietly_by_the_fire_in_an_English_pub.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+}   

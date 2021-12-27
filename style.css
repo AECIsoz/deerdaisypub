@@ -16,9 +16,30 @@ h2 {
     text-align: right;
 }
 .main-image {
+    display: flex;
     background-image: url('./resources/A_black_labrador_sits_quietly_by_the_fire_in_an_English_pub.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 500px;
+    height: 400px;
+}
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: background-color, 1s;
+}
+.intro-text:hover {
+    background-color: rgba(0, 0, 0, 0.808);
+}
+h3 {
+    color: white;
+    font-family: 'Petit Formal Script', cursive;
 }   
+p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+}

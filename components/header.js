@@ -10,7 +10,7 @@ class Header extends HTMLElement {
         font-family: 'Petit Formal Script', cursive;
         font-size: 4.5rem;
         font-weight: 500;
-        
+        color: #42001d;
       }
       .header-container {
         display: flex;
@@ -20,7 +20,6 @@ class Header extends HTMLElement {
         left: 0;
         width: 100%;
         padding-bottom: 10px;
-        
     }
     .nav-container {
         display: inline-flex;
@@ -37,7 +36,7 @@ class Header extends HTMLElement {
     }
     .left {
         width: 80%;
-        background-image: url('./resources/wallpaper_pink.png');
+        /*background-image: url('./resources/wallpaper_pink.png');*/
     }
     .right {
         width: 15%;

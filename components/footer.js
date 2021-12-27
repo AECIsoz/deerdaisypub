@@ -12,9 +12,11 @@ class Footer extends HTMLElement {
             align-items: center;
             width: 100%;
             font-size: 0.8rem;
-            background-color: #555E56;
             padding: 10px;
             margin-top: 20px;
+        }
+        .footer-container p {
+          color: black;
         }
         .icons {
             display: flex;
@@ -24,14 +26,25 @@ class Footer extends HTMLElement {
         .fab {
             font-size: 2.5rem;
         }
+        .attributions p {
+          font-size: 0.6rem;
+          margin: 0;
+        }
         </style>
         <footer class="footer-container">
             <article>
-            <p>&copy; 2021 Isoz Creative Web</p>
+              <p>&copy; 2021 Isoz Creative Web</p>
             </article>
             <article class="icons">
-                <a target="_blank" href="https://www.linkedin.com/in/annaisoz/"><i class="fab fa-linkedin"></i></a>
-                <a target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a target="_blank" href="https://www.facebook.com/deerdaisypub"><i class="fab fa-facebook"></i></a>
+                <a target="_blank" href="https://www.instagram.com/deerdaisypub"><i class="fab fa-instagram"></i></a>
+            </article>
+            <article class="attributions">
+              <p>Photo attribution:</p>
+              <p>Main pub photo by <a href="https://unsplash.com/@michaelcummins?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Michael Cummins</a> on <a href="https://unsplash.com/@michaelcummins?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+              </p>
+              <p>Pub section photo by <a href="https://unsplash.com/@matteosteger?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matteo Steger</a> on <a href="https://unsplash.com/@matteosteger?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+              </p>
             </article>
         </footer>
       `;

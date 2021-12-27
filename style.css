@@ -15,19 +15,22 @@ h2 {
     font-weight: 300;
     text-align: right;
 }
+
+/* main image section ===================================*/
 .main-image {
     display: flex;
     background-image: url('./resources/A_black_labrador_sits_quietly_by_the_fire_in_an_English_pub.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 400px;
+    height: 500px;
 }
 .intro-text {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 30%;
     padding: 30px;
+    margin-left: 30px;
     background-color: rgba(0, 0, 0, 0.3);
     transition: background-color, 1s;
 }
@@ -37,9 +40,57 @@ h2 {
 h3 {
     color: white;
     font-family: 'Petit Formal Script', cursive;
+    font-size: 1.4rem;
 }   
 p {
     color: white;
     font-family: 'Open Sans', sans-serif;
     margin-top: 0;
+}
+
+/* products section ===================================*/
+.products {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+.info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 28%;
+    height: 350px;
+}
+.info-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.479);
+    transition: background-color 1s;
+    
+}
+.info-text:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.info-text p, .info-text h3 {
+    color: black;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+.pub {
+    background-image: url('./resources/Wine\ glasses\ hanging\ from\ the\ deck\ over\ the\ bar.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bed-breakfast {
+    background-image: url('./resources/bed-breakfast-room-inspiration.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.semesterbostad {
+    background-image: url('./resources/annexe.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
 }

@@ -8,7 +8,7 @@ class Header extends HTMLElement {
       <style>
       h1 {
         font-family: 'Petit Formal Script', cursive;
-        font-size: 4.5rem;
+        font-size: 5rem;
         font-weight: 500;
         color: #42001d;
       }
@@ -20,6 +20,8 @@ class Header extends HTMLElement {
         left: 0;
         width: 100%;
         padding-bottom: 10px;
+        padding-top: 20px;
+        background-color: #fadcd9;
     }
     .nav-container {
         display: inline-flex;
@@ -27,7 +29,7 @@ class Header extends HTMLElement {
         justify-content: center;
     }
     .logo {
-        width: 15%;
+        width: 20%;
     }
     .left, .right {
         display: inline-flex;
@@ -35,11 +37,11 @@ class Header extends HTMLElement {
         align-items: center;
     }
     .left {
-        width: 80%;
+        width: 60%;
         /*background-image: url('./resources/wallpaper_pink.png');*/
     }
     .right {
-        width: 15%;
+        width: 20%;
     }
     .menu-items {
         display: flex;
@@ -51,22 +53,25 @@ class Header extends HTMLElement {
     }
     .nav-container li {
         display: flex;
-        padding: 10px;
+        padding: 5px 10px;
+        margin-top: 5px;
         border-radius: 5px;
-        transition: background-color 1s ease-in
+        transition: background-color 1s;
     }
     .nav-container li:hover {
-        background-color: #CCE3D0;
+        background-color: #558257;
+        color: white;
     }
     .nav-container a, .small-header-menu a {
+        font-size: 0.8rem;
         text-transform: uppercase;
         text-decoration-line: none;
         font-family: 'Lato', sans-serif;
-        color: #558257;
+        color: #42001d;
         transition: color;
     }
     .nav-container a:hover, .small-header-menu a:hover {
-        color: black;
+        color: white;
     }
 
     .header-small {
@@ -133,8 +138,10 @@ class Header extends HTMLElement {
             
             <div class="nav-container right">
                 <ul class="menu-items">
-                    <li><a href="#">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Hem</a></li>
+                    <li><a href="#">Pub</a></li>
+                    <li><a href="#">B&B</a></li>
+                    <li><a href="#">Semesterbostad</a></li>
                 </ul>
             </div>
         </nav>
@@ -161,7 +168,7 @@ class Header extends HTMLElement {
 customElements.define('header-component', Header);
 
 function makeGray() {
-    document.getElementById('logotype').style.backgroundColor = '#cce3d0';
+    document.getElementById('logotype').style.backgroundColor = '#fadcd9';
 }
 
 document.addEventListener('scroll', makeGray);

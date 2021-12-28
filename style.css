@@ -13,7 +13,23 @@ body {
 h2 {
     font-family: 'Petit Formal Script', cursive;
     font-weight: 300;
-    text-align: right;
+    text-align: center;
+}
+
+/* main container for smaller screens===================*/
+@media only screen and (max-width: 900px) {
+    h2 {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h2 {
+        font-size: 0.8rem;
+    }
+    .main-container {
+        margin-top: 130px;
+    }
 }
 
 /* main image section ===================================*/
@@ -46,6 +62,40 @@ p {
     color: white;
     font-family: 'Open Sans', sans-serif;
     margin-top: 0;
+}
+
+/*main image section for smallerscreens ===============*/
+@media only screen and (max-width: 900px) {
+    body {
+        margin: 0;
+    }
+    .main-image {
+        background-position: center;
+        align-items: flex-end;
+    }
+    h3 {
+        font-size: 1.1rem;
+    }
+    .intro-text {
+        margin-left: 10px;
+        justify-content: flex-end;
+        width: 100%;
+        height:fit-content
+    }
+    .intro-text p {
+        margin-bottom: 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    h3 {
+        font-size: 0.9rem;
+    }
+    .intro-text p {
+        font-size: 0.8rem;
+    }
+    .intro-text {
+        padding: 10px;
+    }
 }
 
 /* products section ===================================*/
@@ -93,4 +143,33 @@ p {
     background-image: url('./resources/annexe.JPG');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+/* product section for smaller screens ==========================*/
+@media only screen and (max-width: 900px) {
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+    .info-box {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .info-text {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .info-text p {
+        font: 0.9rem;
+    }
+    .info-text h3 {
+        font-size: 1.2rem;
+    }
+    .pub {
+        background-position: center;
+    }
+    .bed-breakfast {
+        background-position: right;
+    }
 }

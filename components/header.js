@@ -12,6 +12,11 @@ class Header extends HTMLElement {
         font-weight: 500;
         color: #42001d;
       }
+      @media only screen and (max-width: 1400px) {
+        h1 {  
+            font-size: 4rem;
+        }
+      }
       .header-container {
         display: flex;
         justify-content: space-between;
@@ -56,22 +61,22 @@ class Header extends HTMLElement {
         padding: 5px 10px;
         margin-top: 5px;
         border-radius: 5px;
-        transition: background-color 1s;
     }
     .nav-container li:hover {
-        background-color: #558257;
-        color: white;
+        color: #004225;
     }
     .nav-container a, .small-header-menu a {
         font-size: 0.8rem;
         text-transform: uppercase;
         text-decoration-line: none;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
         color: #42001d;
-        transition: color;
+        transition: color, font-size, font-style;
     }
     .nav-container a:hover, .small-header-menu a:hover {
-        color: white;
+        color: #004225;
+        font-size: 1rem;
+        font-style: italic;
     }
 
     .header-small {
@@ -80,6 +85,7 @@ class Header extends HTMLElement {
         top: 0;
         left: 0;
         width: 100%;
+        background-color: #fadcd9;
     }
     /* header for medium and small screens */
     
@@ -87,17 +93,15 @@ class Header extends HTMLElement {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100px;
-        background-image: url("./resources/background-backdrop-pattern-design-texture-shiny-1418296-pxhere.com.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
+        height: 60px;
+        margin-top: 30px;
     }
     .small-header-logo img {
-        height: 80px;
+        height: 50px;
     }
+
     .small-header-menu {
         display: flex;
-        background-color: #555E56;
     }
     .small-header-menu ul {
         display: inline-flex;
@@ -107,23 +111,30 @@ class Header extends HTMLElement {
     .small-header-menu li {
         display: flex;
     }
-    @media only screen and (max-width: 1150px) {
-        .logo img {
-            height: 90px;
-        }
-    }
-    
-    @media only screen and (max-width: 900px) {
+       
+    @media only screen and (max-width: 1200px) {
         .header-container {
             display: none;
         }
         .header-small {
             display: block;
         }
+        
+        .small-header-logo h1 {
+            font-size: 2.4rem;
+            padding-left: 30px;
+        }
     }
     @media only screen and (max-width: 500px) {
         a {
             font-size: 0.8rem;
+        }
+        .small-header-logo h1 {
+            font-size: 1.6rem;
+            padding-left: 30px;
+        }
+        .small-header-logo {
+            margin-top: 10px;
         }
     }
       </style>
@@ -138,7 +149,7 @@ class Header extends HTMLElement {
             
             <div class="nav-container right">
                 <ul class="menu-items">
-                    <li><a href="#">Hem</a></li>
+                    <li><a href="index.html">Hem</a></li>
                     <li><a href="#">Pub</a></li>
                     <li><a href="#">B&B</a></li>
                     <li><a href="#">Semesterbostad</a></li>
@@ -150,13 +161,15 @@ class Header extends HTMLElement {
         <nav class="header-small">
             <div class="small-header-logo">
                 <img src="./resources/logo.png" alt="logo with a deer jumping over a daisy">
+                <h1>The Deer & Daisy</h1>
             </div>
+            
             <div class="small-header-menu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="#">Pub</a></li>
+                    <li><a href="#">B&B</a></li>
+                    <li><a href="#">Semesterbostad</a></li>
                 </ul>
             </div>
         </nav>

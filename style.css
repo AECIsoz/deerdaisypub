@@ -4,7 +4,7 @@ body {
 }
 
 /* main container =======================================*/
-.main-container {
+.main-container, .pub-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,11 +35,17 @@ h2 {
 /* main image section ===================================*/
 .main-image {
     display: flex;
-    background-image: url('./resources/A_black_labrador_sits_quietly_by_the_fire_in_an_English_pub.jpg');
+    align-items: flex-end;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 500px;
+}
+.home-image {
+    background-image: url('./resources/A_black_labrador_sits_quietly_by_the_fire_in_an_English_pub.jpg');
+}
+.pub-image {
+    background-image: url('./resources/wine_and_beer_glass_and_crips_on_table_by_fire.jpg');
 }
 .intro-text {
     display: flex;

@@ -150,7 +150,7 @@ class Header extends HTMLElement {
             <div class="nav-container right">
                 <ul class="menu-items">
                     <li><a href="index.html">Hem</a></li>
-                    <li><a href="#">Pub</a></li>
+                    <li><a href="pub.html">Pub</a></li>
                     <li><a href="#">B&B</a></li>
                     <li><a href="#">Semesterbostad</a></li>
                 </ul>

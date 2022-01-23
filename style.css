@@ -50,11 +50,11 @@ h2 {
 .intro-text {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 40%;
     padding: 30px;
     margin-left: 30px;
     background-color: rgba(0, 0, 0, 0.3);
-    transition: background-color, 1s;
+    transition: background-color, 1s ease-in;
 }
 .intro-text:hover {
     background-color: rgba(0, 0, 0, 0.808);

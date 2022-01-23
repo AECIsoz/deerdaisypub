@@ -66,7 +66,7 @@ class Header extends HTMLElement {
         color: #004225;
     }
     .nav-container a, .small-header-menu a {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         text-transform: uppercase;
         text-decoration-line: none;
         font-family: 'Oswald', sans-serif;
@@ -153,6 +153,7 @@ class Header extends HTMLElement {
                     <li><a href="pub.html">Pub</a></li>
                     <li><a href="#">B&B</a></li>
                     <li><a href="#">Semesterbostad</a></li>
+                    <li><a href="#">Kontakt</a></li>
                 </ul>
             </div>
         </nav>
@@ -170,6 +171,7 @@ class Header extends HTMLElement {
                     <li><a href="#">Pub</a></li>
                     <li><a href="#">B&B</a></li>
                     <li><a href="#">Semesterbostad</a></li>
+                    <li><a href="#">Kontakt</a></li>
                 </ul>
             </div>
         </nav>

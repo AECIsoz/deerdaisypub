@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 180px;
 }
 h2 {
     font-family: 'Petit Formal Script', cursive;

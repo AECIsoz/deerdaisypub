@@ -8,9 +8,10 @@ class Header extends HTMLElement {
       <style>
       h1 {
         font-family: 'Petit Formal Script', cursive;
-        font-size: 5rem;
+        font-size: 4rem;
         font-weight: 500;
         color: #42001d;
+        margin-bottom: 0;
       }
       @media only screen and (max-width: 1400px) {
         h1 {  
@@ -30,7 +31,7 @@ class Header extends HTMLElement {
     }
     .nav-container {
         display: inline-flex;
-        height: 140px;
+        height: 170px;
         justify-content: center;
     }
     .logo {
@@ -42,8 +43,8 @@ class Header extends HTMLElement {
         align-items: center;
     }
     .left {
+        flex-direction: column;
         width: 60%;
-        /*background-image: url('./resources/wallpaper_pink.png');*/
     }
     .right {
         width: 20%;
@@ -67,9 +68,9 @@ class Header extends HTMLElement {
     }
     .nav-container a, .small-header-menu a {
         font-size: 0.9rem;
-        text-transform: uppercase;
         text-decoration-line: none;
-        font-family: 'Oswald', sans-serif;
+        font-family: 'Petit Formal Script', cursive;
+        font-weight: 700;
         color: #42001d;
         transition: color, font-size, font-style;
     }
@@ -128,9 +129,10 @@ class Header extends HTMLElement {
     @media only screen and (max-width: 500px) {
         a {
             font-size: 0.8rem;
+            font-weight: 500;
         }
         .small-header-logo h1 {
-            font-size: 1.6rem;
+            font-size: 1.8rem;
             padding-left: 30px;
         }
         .small-header-logo {
@@ -141,10 +143,11 @@ class Header extends HTMLElement {
       <header>
         <nav class="header-container" id="header">
             <div class="nav-container logo" id="logotype">
-            <img src="./resources/logo.png" alt="logo with a deer jumping over a daisy">
+            <img src="./resources/logo_alt.png" alt="logo with a deer jumping over a daisy">
             </div>
             <div class="nav-container left">
                 <h1>The Deer & Daisy</h1>
+                <h2>Din klassiska engelska pub med B&B på Österlen</h2>
             </div>
             
             <div class="nav-container right">
@@ -161,8 +164,11 @@ class Header extends HTMLElement {
         <!-- header medium and small screens -->
         <nav class="header-small">
             <div class="small-header-logo">
-                <img src="./resources/logo.png" alt="logo with a deer jumping over a daisy">
+                <img src="./resources/logo_alt.png" alt="logo with a deer jumping over a daisy">
                 <h1>The Deer & Daisy</h1>
+            </div>
+            <div>
+                <h2>Din klassiska engelska pub med B&B på Österlen</h2>
             </div>
             
             <div class="small-header-menu">

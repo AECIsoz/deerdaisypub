@@ -174,7 +174,7 @@ class Header extends HTMLElement {
                     <a href="#">Semesterbostad</a></li>
                     <li>
                     <img class="deer" src="./resources/001-deer-shape.png">
-                    <a href="#">Kontakt</a></li>
+                    <a href="contact.html">Kontakt</a></li>
                 </ul>
             </div>
         </nav>
@@ -195,7 +195,7 @@ class Header extends HTMLElement {
                     <li><a href="#">Pub</a></li>
                     <li><a href="#">B&B</a></li>
                     <li><a href="#">Semesterbostad</a></li>
-                    <li><a href="#">Kontakt</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
                 </ul>
             </div>
         </nav>

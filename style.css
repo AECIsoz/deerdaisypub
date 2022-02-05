@@ -179,3 +179,8 @@ p {
         background-position: right;
     }
 }
+
+/* CONTACT PAGE STYLES ============================*/
+#margin-contact {
+    height: 180px;
+}

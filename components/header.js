@@ -35,6 +35,8 @@ class Header extends HTMLElement {
         justify-content: center;
     }
     .logo {
+        display: flex;
+        justify-content: flex-end;
         width: 20%;
     }
     .left, .right {
@@ -53,12 +55,13 @@ class Header extends HTMLElement {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        align-items: center;
+        /*align-items: center;*/
         width: 100%;
         padding: 0;
     }
     .nav-container li {
         display: flex;
+        align-items: center;
         padding: 5px 10px;
         margin-top: 5px;
         border-radius: 5px;
@@ -67,9 +70,9 @@ class Header extends HTMLElement {
         color: #004225;
     }
     .nav-container a, .small-header-menu a {
-        font-size: 0.9rem;
+        font-size: 1rem;
         text-decoration-line: none;
-        font-family: 'Petit Formal Script', cursive;
+        font-family: 'Open Sans Condensed', sans-serif;
         font-weight: 700;
         color: #42001d;
         transition: color, font-size, font-style;
@@ -87,6 +90,11 @@ class Header extends HTMLElement {
         left: 0;
         width: 100%;
         background-color: #fadcd9;
+    }
+
+    .deer {
+        width: 20px;
+        padding-right: 10px;
     }
     /* header for medium and small screens */
     
@@ -152,11 +160,21 @@ class Header extends HTMLElement {
             
             <div class="nav-container right">
                 <ul class="menu-items">
-                    <li><a href="index.html">Hem</a></li>
-                    <li><a href="pub.html">Pub</a></li>
-                    <li><a href="#">B&B</a></li>
-                    <li><a href="#">Semesterbostad</a></li>
-                    <li><a href="#">Kontakt</a></li>
+                    <li>
+                    <img class="deer" src="./resources/001-deer-shape.png">
+                    <a href="index.html">Hem</a></li>
+                    <li>
+                    <img class="deer" src="./resources/001-deer-shape.png">
+                    <a href="pub.html">Pub</a></li>
+                    <li>
+                    <img class="deer" src="./resources/001-deer-shape.png">
+                    <a href="#">B&B</a></li>
+                    <li>
+                    <img class="deer" src="./resources/001-deer-shape.png">
+                    <a href="#">Semesterbostad</a></li>
+                    <li>
+                    <img class="deer" src="./resources/001-deer-shape.png">
+                    <a href="#">Kontakt</a></li>
                 </ul>
             </div>
         </nav>

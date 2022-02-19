@@ -12,6 +12,7 @@ class Header extends HTMLElement {
         font-weight: 500;
         color: #42001d;
         margin-bottom: 0;
+        padding-left: 30px;
       }
       @media only screen and (max-width: 1400px) {
         h1 {  
@@ -20,6 +21,7 @@ class Header extends HTMLElement {
       }
       .header-container {
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         position: fixed;
         top: 0;
@@ -29,33 +31,19 @@ class Header extends HTMLElement {
         padding-top: 20px;
         background-color: #fadcd9;
     }
-    .nav-container {
-        display: inline-flex;
-        height: 170px;
-        justify-content: center;
-    }
     .logo {
         display: flex;
-        justify-content: flex-end;
-        width: 20%;
-    }
-    .left, .right {
-        display: inline-flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
     }
-    .left {
-        flex-direction: column;
-        width: 60%;
+    .logo img {
+        width: 120px;
+        height: 120px;
     }
-    .right {
-        width: 20%;
-    }
+   
     .menu-items {
         display: flex;
-        flex-direction: column;
         justify-content: space-evenly;
-        /*align-items: center;*/
         width: 100%;
         padding: 0;
     }
@@ -70,7 +58,7 @@ class Header extends HTMLElement {
         color: #004225;
     }
     .nav-container a, .small-header-menu a {
-        font-size: 1rem;
+        font-size: 1.5rem;
         text-decoration-line: none;
         font-family: 'Open Sans Condensed', sans-serif;
         font-weight: 700;
@@ -79,7 +67,6 @@ class Header extends HTMLElement {
     }
     .nav-container a:hover, .small-header-menu a:hover {
         color: #004225;
-        font-size: 1rem;
         font-style: italic;
     }
 
@@ -93,7 +80,7 @@ class Header extends HTMLElement {
     }
 
     .deer {
-        width: 20px;
+        width: 30px;
         padding-right: 10px;
     }
     /* header for medium and small screens */
@@ -151,14 +138,11 @@ class Header extends HTMLElement {
       <header>
         <nav class="header-container" id="header">
             <div class="nav-container logo" id="logotype">
-            <img src="./resources/Logo_alt.png" alt="logo with a deer jumping over a daisy">
+            <img src="./resources/Logo.png" alt="logo with a deer jumping over a daisy">
+            <h1>The Deer & Daisy</h1>
             </div>
-            <div class="nav-container left">
-                <h1>The Deer & Daisy</h1>
-                <h2>Din klassiska engelska pub med B&B på Österlen</h2>
-            </div>
-            
-            <div class="nav-container right">
+           
+            <div class="nav-container ">
                 <ul class="menu-items">
                     <li>
                     <img class="deer" src="./resources/001-deer-shape.png">
@@ -182,7 +166,7 @@ class Header extends HTMLElement {
         <!-- header medium and small screens -->
         <nav class="header-small">
             <div class="small-header-logo">
-                <img src="./resources/Logo_alt.png" alt="logo with a deer jumping over a daisy">
+                <img src="./resources/Logo.png" alt="logo with a deer jumping over a daisy">
                 <h1>The Deer & Daisy</h1>
             </div>
             <div>

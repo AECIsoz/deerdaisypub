@@ -40,10 +40,12 @@ class Footer extends HTMLElement {
                 <a target="_blank" href="https://www.instagram.com/deerdaisypub"><i class="fab fa-instagram"></i></a>
             </article>
             <article class="attributions">
-              <p>Photo attribution:</p>
+              <p>Attributions:</p>
               <p>Main pub photo by <a href="https://unsplash.com/@michaelcummins?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Michael Cummins</a> on <a href="https://unsplash.com/@michaelcummins?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
               </p>
               <p>Pub section photo by <a href="https://unsplash.com/@matteosteger?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matteo Steger</a> on <a href="https://unsplash.com/@matteosteger?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+              </p>
+              <p>Logo made at <a href="https://logomakr.com/">LogoMakr.com/app</a>
               </p>
             </article>
         </footer>

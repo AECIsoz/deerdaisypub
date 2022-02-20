@@ -4,11 +4,11 @@ body {
 }
 
 /* main container =======================================*/
-.main-container, .pub-container {
+.main-container, .pub-container, .tea-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 180px;
+    margin-top: 250px;
 }
 h2 {
     font-family: 'Petit Formal Script', cursive;
@@ -21,6 +21,11 @@ h2 {
 }
 
 /* main container for smaller screens===================*/
+@media only screen and (max-width: 1200px) {
+    .main-container, .pub-container, .tea-container {
+        margin-top: 180px;
+    }
+}
 @media only screen and (max-width: 900px) {
     h2 {
         font-size: 1.4rem;
@@ -44,7 +49,7 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 500px;
+
 }
 .home-image {
     background-image: url('./resources/A_black_labrador_sits_quietly_by_the_fire_in_an_English_pub.jpg');
@@ -52,13 +57,17 @@ h2 {
 .pub-image {
     background-image: url('./resources/wine_and_beer_glass_and_crips_on_table_by_fire.jpg');
 }
+.tea-image {
+    background-image: url('./resources/Afternoon-tea-inspiration.jpg');
+}
 .intro-text {
     display: flex;
     flex-direction: column;
     width: 40%;
     padding: 30px;
     margin-left: 30px;
-    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
     transition: background-color, 1s ease-in;
 }
 .intro-text:hover {
@@ -66,8 +75,11 @@ h2 {
 }
 h3 {
     color: white;
-    font-family: 'Petit Formal Script', cursive;
+    font-family: 'Castellar', sans-serif;
+    font-weight: 300;
     font-size: 1.4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }   
 p {
     color: white;
@@ -90,8 +102,8 @@ p {
     .intro-text {
         margin-left: 10px;
         justify-content: flex-end;
-        width: 100%;
-        height:fit-content
+        width: 90%;
+        height:fit-content;
     }
     .intro-text p {
         margin-bottom: 0;
@@ -145,8 +157,8 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
 }
-.bed-breakfast {
-    background-image: url('./resources/bed-breakfast-room-inspiration.jpg');
+.afternoon-tea {
+    background-image: url('./resources/Afternoon-tea-inspiration.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -188,4 +200,8 @@ p {
 /* CONTACT PAGE STYLES ============================*/
 #margin-contact {
     height: 180px;
+}
+iframe #form-heading-00000002-acc {
+    font-family: 'Castellar', sans-serif;
+    font-weight: 300;
 }

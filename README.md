@@ -3,6 +3,7 @@ This is the website for the local village inn in Kivik - The Deer & Daisy
 
 ### Fonts
 - Classic script for header and tagline: font-family: 'Petit Formal Script', cursive;
+- Alternative font for headings: font-family: 'Castellar', sans-serif;
 - Headings and menus: font-family: 'Oswald', sans-serif;
 - or for menus: font-family: 'Open Sans Condensed', sans-serif;
 - Body: font-family: 'Open Sans', sans-serif;

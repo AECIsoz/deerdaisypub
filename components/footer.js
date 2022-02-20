@@ -45,6 +45,7 @@ class Footer extends HTMLElement {
               </p>
               <p>Pub section photo by <a href="https://unsplash.com/@matteosteger?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matteo Steger</a> on <a href="https://unsplash.com/@matteosteger?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
               </p>
+              <p>Contact page photo by <a href="https://unsplash.com/@sixstreetunder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Craig Whitehead</a> on <a href"https://unsplash.com/collections/2737168/english-pub?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
               <p>Logo made at <a href="https://logomakr.com/">LogoMakr.com/app</a>
               </p>
             </article>

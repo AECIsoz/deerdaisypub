@@ -7,7 +7,8 @@ class Header extends HTMLElement {
     this.innerHTML = `
       <style>
       h1 {
-        font-family: 'Petit Formal Script', cursive;
+        font-family: 'Castellar', sans-serif;
+        text-transform: uppercase;
         font-size: 4rem;
         font-weight: 500;
         color: #42001d;
@@ -58,7 +59,7 @@ class Header extends HTMLElement {
         color: #004225;
     }
     .nav-container a, .small-header-menu a {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-decoration-line: none;
         font-family: 'Open Sans Condensed', sans-serif;
         font-weight: 700;
@@ -149,13 +150,13 @@ class Header extends HTMLElement {
                     <a href="index.html">Hem</a></li>
                     <li>
                     <img class="deer" src="./resources/001-deer-shape.png">
-                    <a href="pub.html">Pub</a></li>
-                    <li>
-                    <img class="deer" src="./resources/001-deer-shape.png">
-                    <a href="#">B&B</a></li>
+                    <a href="afternoon_tea.html">Afternoon Tea</a></li>
                     <li>
                     <img class="deer" src="./resources/001-deer-shape.png">
                     <a href="#">Semesterbostad</a></li>
+                    <li>
+                    <img class="deer" src="./resources/001-deer-shape.png">
+                    <a href="pub.html">Pub</a></li>
                     <li>
                     <img class="deer" src="./resources/001-deer-shape.png">
                     <a href="contact.html">Kontakt</a></li>
@@ -168,17 +169,13 @@ class Header extends HTMLElement {
             <div class="small-header-logo">
                 <img src="./resources/Logo.png" alt="logo with a deer jumping over a daisy">
                 <h1>The Deer & Daisy</h1>
-            </div>
-            <div>
-                <h2>Din klassiska engelska pub med B&B på Österlen</h2>
-            </div>
-            
+            </div>            
             <div class="small-header-menu">
                 <ul>
                     <li><a href="index.html">Hem</a></li>
-                    <li><a href="#">Pub</a></li>
-                    <li><a href="#">B&B</a></li>
+                    <li><a href="#">Afternoon Tea</a></li>
                     <li><a href="#">Semesterbostad</a></li>
+                    <li><a href="pub.html">Pub</a></li>
                     <li><a href="contact.html">Kontakt</a></li>
                 </ul>
             </div>

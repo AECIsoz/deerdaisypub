@@ -8,8 +8,8 @@ class Header extends HTMLElement {
       <style>
       h1 {
         font-family: 'Palatino', serif;
-        text-transform: uppercase;
-        font-size: 4rem;
+        
+        font-size: 5rem;
         font-weight: 500;
         color: #42001d;
         margin-bottom: 0;
@@ -30,7 +30,7 @@ class Header extends HTMLElement {
         width: 100%;
         padding-bottom: 10px;
         padding-top: 20px;
-        background-color: #fadcd9;
+        background-color: #FBF7EB;
     }
     .logo {
         display: flex;
@@ -188,7 +188,7 @@ class Header extends HTMLElement {
 customElements.define('header-component', Header);
 
 function makeGray() {
-    document.getElementById('logotype').style.backgroundColor = '#fadcd9';
+    document.getElementById('logotype').style.backgroundColor = '#FBF7EB';
 }
 
 document.addEventListener('scroll', makeGray);

@@ -7,13 +7,13 @@ class Header extends HTMLElement {
     this.innerHTML = `
       <style>
       h1 {
-        font-family: 'Palatino', serif;
+        font-family: 'Castellar', sans-serif;
         
         font-size: 5rem;
         font-weight: 500;
         color: #42001d;
         margin-bottom: 0;
-        padding-left: 30px;
+        padding-left: 80px;
       }
       @media only screen and (max-width: 1400px) {
         h1 {  

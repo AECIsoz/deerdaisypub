@@ -7,7 +7,7 @@ class Header extends HTMLElement {
     this.innerHTML = `
       <style>
       h1 {
-        font-family: 'Castellar', sans-serif;
+        font-family: 'Palatino', serif;
         text-transform: uppercase;
         font-size: 4rem;
         font-weight: 500;
@@ -38,8 +38,8 @@ class Header extends HTMLElement {
         align-items: center;
     }
     .logo img {
-        width: 120px;
-        height: 120px;
+        width: 140px;
+        height: 140px;
     }
    
     .menu-items {
@@ -139,7 +139,7 @@ class Header extends HTMLElement {
       <header>
         <nav class="header-container" id="header">
             <div class="nav-container logo" id="logotype">
-            <img src="./resources/Logo.png" alt="logo with a deer jumping over a daisy">
+            <img src="./resources/Logo_ny.jpg" alt="logo with a deer jumping over a daisy">
             <h1>The Deer & Daisy</h1>
             </div>
            

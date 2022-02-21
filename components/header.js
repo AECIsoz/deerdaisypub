@@ -167,7 +167,7 @@ class Header extends HTMLElement {
         <!-- header medium and small screens -->
         <nav class="header-small">
             <div class="small-header-logo">
-                <img src="./resources/Logo.png" alt="logo with a deer jumping over a daisy">
+                <img src="./resources/Logo_ny.jpg" alt="logo with a deer jumping over a daisy">
                 <h1>The Deer & Daisy</h1>
             </div>            
             <div class="small-header-menu">

@@ -12,8 +12,7 @@ class Header extends HTMLElement {
         font-size: 5rem;
         font-weight: 500;
         color: #42001d;
-        margin-bottom: 0;
-        padding-left: 80px;
+        margin: 0;
       }
       @media only screen and (max-width: 1400px) {
         h1 {  
@@ -22,8 +21,7 @@ class Header extends HTMLElement {
       }
       .header-container {
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         position: fixed;
         top: 0;
         left: 0;
@@ -32,37 +30,41 @@ class Header extends HTMLElement {
         padding-top: 20px;
         background-color: #FBF7EB;
     }
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-right: 30px;
+    }
     .logo {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-end;
+        width: 25%;
     }
     .logo img {
-        width: 140px;
-        height: 140px;
+        width: 200px;
+        height: 200px;
     }
    
     .menu-items {
         display: flex;
-        justify-content: space-evenly;
-        width: 100%;
-        padding: 0;
+        flex-direction: column;
     }
     .nav-container li {
         display: flex;
+        justify-content: center;
         align-items: center;
         padding: 5px 10px;
-        margin-top: 5px;
         border-radius: 5px;
     }
     .nav-container li:hover {
         color: #004225;
     }
     .nav-container a, .small-header-menu a {
-        font-size: 1.2rem;
+        font-size: 1rem;
         text-decoration-line: none;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
         color: #42001d;
         transition: color, font-size, font-style;
     }
@@ -138,27 +140,21 @@ class Header extends HTMLElement {
       </style>
       <header>
         <nav class="header-container" id="header">
-            <div class="nav-container logo" id="logotype">
-            <img src="./resources/Logo_ny.jpg" alt="logo with a deer jumping over a daisy">
-            <h1>The Deer & Daisy</h1>
+            <div class="nav-container">
+            <div class="logo">
+                <img src="./resources/Logo_ny.jpg" alt="logo with a deer jumping over a daisy">
             </div>
-           
-            <div class="nav-container ">
-                <ul class="menu-items">
+            <h1>The Deer & Daisy</h1>
+            <ul class="menu-items">
                     <li>
-                    <img class="deer" src="./resources/001-deer-shape.png">
                     <a href="index.html">Hem</a></li>
                     <li>
-                    <img class="deer" src="./resources/001-deer-shape.png">
                     <a href="afternoon_tea.html">Afternoon Tea</a></li>
                     <li>
-                    <img class="deer" src="./resources/001-deer-shape.png">
                     <a href="#">Semesterbostad</a></li>
                     <li>
-                    <img class="deer" src="./resources/001-deer-shape.png">
                     <a href="pub.html">Pub</a></li>
                     <li>
-                    <img class="deer" src="./resources/001-deer-shape.png">
                     <a href="contact.html">Kontakt</a></li>
                 </ul>
             </div>
@@ -187,8 +183,8 @@ class Header extends HTMLElement {
 
 customElements.define('header-component', Header);
 
-function makeGray() {
+/*function makeGray() {
     document.getElementById('logotype').style.backgroundColor = '#FBF7EB';
 }
 
-document.addEventListener('scroll', makeGray);
+document.addEventListener('scroll', makeGray);*/

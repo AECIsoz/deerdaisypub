@@ -16,4 +16,9 @@ This is the website for the local village inn in Kivik - The Deer & Daisy
 - Dark pink: #F9EEDC (?)
 - Dark green: #004225, RGB(0, 66, 37)
 
-logo url logomakr.com/app/8S2T8o
+## Colors from logo
+- daisy yellow: #E7DE71 RGB(231, 222, 113)
+- daisy white: #FAF8EB RGB(250, 248, 235)
+- background: #E5E0B8 RGB(229, 224, 184)
+
+

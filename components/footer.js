@@ -67,6 +67,7 @@ class Footer extends HTMLElement {
               </p>
               <p>Contact page photo by <a href="https://unsplash.com/@sixstreetunder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Craig Whitehead</a> on <a href"https://unsplash.com/collections/2737168/english-pub?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
               <p>Logo by <a href="https://www.helenaisoz.se/">Helena Isoz</a>
+              <p><a href="https://www.flaticon.com/free-icons/deer" title="deer icons">Deer icons created by Freepik - Flaticon</a></p>
               </p>
             </article>
         </footer>

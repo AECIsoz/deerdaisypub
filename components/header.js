@@ -55,6 +55,9 @@ class Header extends HTMLElement {
         width: 20%;
         padding: 0;
     }
+    ul {
+        padding-inline-start: 0;
+    }
     .nav-container li {
         display: flex;
         justify-content: center;
@@ -144,7 +147,7 @@ class Header extends HTMLElement {
         }
         
         .small-header-logo h1 {
-            font-size: 2.4rem;
+            font-size: 2rem;
             padding-left: 30px;
         }
     }
@@ -154,11 +157,12 @@ class Header extends HTMLElement {
             font-weight: 500;   
         }
         .small-header-logo h1 {
-            font-size: 1.8rem;
+            font-size: 1.5rem;
             padding-left: 30px;
         }
         .small-header-logo {
-            margin-top: 10px;
+            margin-top: 20px;
+            margin-bottom: 10px;
         }
     }
       </style>
@@ -193,7 +197,7 @@ class Header extends HTMLElement {
             <div class="small-header-menu">
                 <ul>
                     <li><a href="index.html">Hem</a></li>
-                    <li><a href="#">Afternoon Tea</a></li>
+                    <li><a href="afternoon_tea.html">Afternoon Tea</a></li>
                     <li><a href="#">Semesterbostad</a></li>
                     <li><a href="pub.html">Pub</a></li>
                     <li><a href="contact.html">Kontakt</a></li>

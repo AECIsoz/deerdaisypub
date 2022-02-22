@@ -30,6 +30,26 @@ class Footer extends HTMLElement {
           font-size: 0.6rem;
           margin: 0;
         }
+
+        /* styles for smaller screens ================================*/
+        @media only screen and (max-width: 600px) {
+          .footer-container {
+            display: flex;
+            flex-direction: column;
+            margin-top: 0;
+          }
+          .footer-container p {
+            font-size: 0.6rem;
+          }
+          .fab {
+            font-size: 2rem;
+            padding-bottom: 1rem;
+          }
+          .attributions a {
+            font-size: 0.6rem;
+          }
+        }
+
         </style>
         <footer class="footer-container">
             <article>

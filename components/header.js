@@ -175,16 +175,11 @@ class Header extends HTMLElement {
                 </div>
                 <h1 class="heading">The Deer & Daisy</h1>
                 <ul class="menu-items">
-                    <li>
-                    <a href="index.html">Hem</a></li>
-                    <li>
-                    <a href="afternoon_tea.html">Afternoon Tea</a></li>
-                    <li>
-                    <a href="#">Semesterbostad</a></li>
-                    <li>
-                    <a href="pub.html">Pub</a></li>
-                    <li>
-                    <a href="contact.html">Kontakt</a></li>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="afternoon_tea.html">Afternoon Tea</a></li>
+                    <li><a href="pub.html">Pub</a></li>
+                    <li><a href="#">Om oss</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
                 </ul>
             </div>
         </nav>
@@ -199,8 +194,8 @@ class Header extends HTMLElement {
                 <ul>
                     <li><a href="index.html">Hem</a></li>
                     <li><a href="afternoon_tea.html">Afternoon Tea</a></li>
-                    <li><a href="#">Semesterbostad</a></li>
                     <li><a href="pub.html">Pub</a></li>
+                    <li><a href="#">Om oss</a></li>
                     <li><a href="contact.html">Kontakt</a></li>
                 </ul>
             </div>

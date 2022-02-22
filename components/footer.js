@@ -53,7 +53,7 @@ class Footer extends HTMLElement {
         </style>
         <footer class="footer-container">
             <article>
-              <p>&copy; 2021 Isoz Creative Web</p>
+              <p>&copy; 2022 Isoz Creative Web</p>
             </article>
             <article class="icons">
                 <a target="_blank" href="https://www.facebook.com/deerdaisypub"><i class="fab fa-facebook"></i></a>

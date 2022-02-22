@@ -8,6 +8,7 @@ class Header extends HTMLElement {
       <style>
       h1 {
         font-family: 'Castellar', serif;
+        text-transform: uppercase;
         font-size: 4.5rem;
         font-weight: 500;
         color: #42001d;

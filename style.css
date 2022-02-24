@@ -52,6 +52,10 @@ h2 {
 .tea-image {
     background-image: url('./resources/Afternoon-tea-inspiration.jpg');
 }
+.about-image {
+    background-image: url('./resources/about-image.jpg');
+    background-position: center;
+}
 .intro-text {
     display: flex;
     flex-direction: column;
@@ -248,3 +252,5 @@ iframe #form-heading-00000002-acc {
     font-family: 'Castellar', sans-serif;
     font-weight: 300;
 }
+
+/* about us page styles ================================*/

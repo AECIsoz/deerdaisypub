@@ -258,6 +258,8 @@ iframe #form-heading-00000002-acc {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 30px;
+    margin-top: 20px;
+    box-sizing: border-box;
 }
 .content-square {
     display: flex;
@@ -273,4 +275,20 @@ iframe #form-heading-00000002-acc {
 .content-square img {
     max-width: 300px;
     align-self: center;
+}
+/* about us page for smaller screens =========================*/
+@media only screen and (max-width: 900px) {
+    .content-container{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .content-square {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .content-square p {
+        font-size: 0.7rem;
+    }
 }

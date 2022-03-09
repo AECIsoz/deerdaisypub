@@ -180,6 +180,7 @@ class Header extends HTMLElement {
                     <li><a href="pub_eng.html">Pub</a></li>
                     <li><a href="about_us_eng.html">About us</a></li>
                     <li><a href="contact_eng.html">Contact</a></li>
+                    <li><a href="index.html">Svenska / </a><a href="index_eng.html">English</a></li>
                 </ul>
             </div>
         </nav>
@@ -197,6 +198,7 @@ class Header extends HTMLElement {
                     <li><a href="pub_eng.html">Pub</a></li>
                     <li><a href="about_us_eng.html">About us</a></li>
                     <li><a href="contact_eng.html">Contact</a></li>
+                    <li><a href="index.html">Svenska / </a><a href="index_eng.html">English</a></li>
                 </ul>
             </div>
         </nav>

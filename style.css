@@ -1,6 +1,7 @@
 /* universal styles =====================================*/
 body {
     background-color: #FAF8EB;
+    box-sizing: border-box;
 }
 
 /* main container =======================================*/
@@ -309,13 +310,14 @@ iframe #form-heading-00000002-acc {
     width: 35%;
     height: 240px;
     padding: 30px;
+    border: 5px solid #E7DE71;
 }
 .tea-square h3 {
     color: black;
     font-size: 1.8rem;
     text-align: center;
     padding: 10px;
-    background-color: #ffffffa4;
+    background-color: rgba(255, 255, 255, 0.479);
     border-radius: 5px;
 }
 #menu {
@@ -323,6 +325,7 @@ iframe #form-heading-00000002-acc {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 #booking-form {
     background-image: url('./resources/booking-form.jpg');

@@ -175,11 +175,11 @@ class Header extends HTMLElement {
                 </div>
                 <h1 class="heading">The Deer & Daisy</h1>
                 <ul class="menu-items">
-                    <li><a href="index.html">Hem</a></li>
-                    <li><a href="afternoon_tea.html">Afternoon Tea</a></li>
-                    <li><a href="pub.html">Pub</a></li>
-                    <li><a href="about_us.html">Om oss</a></li>
-                    <li><a href="contact.html">Kontakt</a></li>
+                    <li><a href="index_eng.html">Home</a></li>
+                    <li><a href="afternoon_tea_eng.html">Afternoon Tea</a></li>
+                    <li><a href="pub_eng.html">Pub</a></li>
+                    <li><a href="about_us_eng.html">About us</a></li>
+                    <li><a href="contact_eng.html">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -192,11 +192,11 @@ class Header extends HTMLElement {
             </div>            
             <div class="small-header-menu">
                 <ul>
-                    <li><a href="index.html">Hem</a></li>
-                    <li><a href="afternoon_tea.html">Afternoon Tea</a></li>
-                    <li><a href="pub.html">Pub</a></li>
-                    <li><a href="about-us.html">Om oss</a></li>
-                    <li><a href="contact.html">Kontakt</a></li>
+                    <li><a href="index_eng.html">Home</a></li>
+                    <li><a href="afternoon_tea_eng.html">Afternoon Tea</a></li>
+                    <li><a href="pub_eng.html">Pub</a></li>
+                    <li><a href="about_us_eng.html">About us</a></li>
+                    <li><a href="contact_eng.html">Contact</a></li>
                 </ul>
             </div>
         </nav>

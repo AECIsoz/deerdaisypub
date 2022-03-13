@@ -329,3 +329,14 @@ iframe #form-heading-00000002-acc {
         width: 50%;
     }
 }
+
+/* pub page styles =====================================================*/
+.interest-instructions {
+    background-image: url('./resources/pint_on_counter.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.interest-form {
+    height: 500px;
+}

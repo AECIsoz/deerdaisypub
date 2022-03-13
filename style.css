@@ -178,6 +178,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.479);
     transition: background-color 1s;
     
@@ -188,12 +189,10 @@ p {
 .info-text a {
     color: black;
     text-decoration: none;
-    transition: background-color 0.5s ease-in;
+    transition: font-style 1.2s ease-in;
 }
 .info-text a:hover {
-    background-color: #E7DE71;
-    border-radius: 5px;
-    padding: 5px;
+    font-style: italic;
 }
 .info-text p, .info-text h3 {
     color: black;
@@ -303,31 +302,16 @@ iframe #form-heading-00000002-acc {
 
 /* afternoon tea page styles ============================*/
 .tea-square {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
     width: 35%;
-    height: 240px;
-    padding: 30px;
-    border: 5px solid #E7DE71;
 }
-.tea-square h3 {
-    color: black;
-    font-size: 1.8rem;
-    text-align: center;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.479);
-    border-radius: 5px;
-}
-#menu {
+.afternoon-tea-menu {
     background-image: url('./resources/tea-menu.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     
 }
-#booking-form {
+.afternoon-tea-booking {
     background-image: url('./resources/booking-form.jpg');
     background-size: cover;
     background-repeat: no-repeat;

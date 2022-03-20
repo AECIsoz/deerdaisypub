@@ -171,7 +171,7 @@ class Header extends HTMLElement {
         <nav class="header-container" id="header">
             <div class="nav-container">
                 <div class="logo">
-                    <img src="./resources/Logo_ny.jpg" alt="logo with a deer jumping over a daisy">
+                    <img src="./resources/logo_utan_text.jpg" alt="logo artwork of a deer head with a daisy in it's mouth and green leaves gently falling around it">
                 </div>
                 <h1 class="heading">The Deer & Daisy</h1>
                 <ul class="menu-items">
@@ -188,7 +188,7 @@ class Header extends HTMLElement {
         <!-- header medium and small screens -->
         <nav class="header-small">
             <div class="small-header-logo">
-                <img src="./resources/Logo_ny.jpg" alt="logo with a deer jumping over a daisy">
+                <img src="./resources/logo_utan_text.jpg" alt="logo artwork of a deer head with a daisy in it's mouth and green leaves gently falling around it">
                 <h1>The Deer & Daisy</h1>
             </div>            
             <div class="small-header-menu">

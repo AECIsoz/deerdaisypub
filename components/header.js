@@ -39,7 +39,7 @@ class Header extends HTMLElement {
     }
     .logo {
         display: inline-flex;
-        justify-content: center;
+        justify-content: flex-end;
         width: 25%;
     }
     .logo img {

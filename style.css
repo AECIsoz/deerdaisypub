@@ -327,14 +327,10 @@ iframe #form-heading-00000002-acc {
 @media only screen and (max-width: 900px) {
     .tea-square {
         margin-bottom: 20px;
-        width: 50%;
+        width: 80%;
     }
 }
-@media only screen and (max-width: 500px) {
-    .tea-square h3 {
-        font-size: 1.2rem;
-    }
-}
+
 
 /* pub page styles =====================================================*/
 .interest-instructions {

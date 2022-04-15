@@ -330,6 +330,11 @@ iframe #form-heading-00000002-acc {
         width: 50%;
     }
 }
+@media only screen and (max-width: 500px) {
+    .tea-square h3 {
+        font-size: 1.2rem;
+    }
+}
 
 /* pub page styles =====================================================*/
 .interest-instructions {

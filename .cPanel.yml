@@ -1,0 +1,18 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/horseand/public_html
+        - /bin/cp -R components $DEPLOYPATH                 
+        - /bin/cp -R resources $DEPLOYPATH 
+        - /bin/cp about_us_eng.html $DEPLOYPATH
+        - /bin/cp about_us.html $DEPLOYPATH 
+        - /bin/cp afternoon_tea_eng.html $DEPLOYPATH 
+        - /bin/cp afternoon_tea.html $DEPLOYPATH 
+        - /bin/cp contact_eng.html $DEPLOYPATH 
+        - /bin/cp contact.html $DEPLOYPATH 
+        - /bin/cp index_eng.html $DEPLOYPATH
+        - /bin/cp index.html $DEPLOYPATH 
+        - /bin/cp pub_eng.html $DEPLOYPATH 
+        - /bin/cp pub.html $DEPLOYPATH  
+        - /bin/cp style.css $DEPLOYPATH 
+        

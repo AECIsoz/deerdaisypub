@@ -1,7 +1,7 @@
 ---
 deployment:
       tasks:
-        - export DEPLOYPATH=/home/horseand/repositories/deerdaisypub
+        - export DEPLOYPATH=/home/horseand/public_html/
         - /bin/cp -R components $DEPLOYPATH                 
         - /bin/cp -R resources $DEPLOYPATH 
         - /bin/cp about_us_eng.html $DEPLOYPATH

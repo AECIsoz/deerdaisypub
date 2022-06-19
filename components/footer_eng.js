@@ -53,6 +53,8 @@ class Footer extends HTMLElement {
         </style>
         <footer class="footer-container">
             <article>
+            <p>The Deer & Daisy <br>
+            Eliselundsvägen 2, 277 30  Kivik</p>
               <p>&copy; 2022 Isoz Creative Web</p>
             </article>
             <article class="icons">

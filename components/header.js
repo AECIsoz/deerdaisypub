@@ -196,7 +196,7 @@ class Header extends HTMLElement {
                     <li><a href="index.html">Hem</a></li>
                     <li><a href="afternoon_tea.html">Afternoon Tea</a></li>
                     <li><a href="pub.html">Pub</a></li>
-                    <li><a href="about-us.html">Om oss</a></li>
+                    <li><a href="about_us.html">Om oss</a></li>
                     <li><a href="contact.html">Kontakt</a></li>
                     <li><a href="index.html">Svenska / </a><a href="index_eng.html">English</a></li>
                 </ul>

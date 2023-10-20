@@ -39,6 +39,7 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -51,7 +52,7 @@ h2 {
     background-image: url('./resources/wine_and_beer_glass_and_crips_on_table_by_fire.jpg');
 }
 .tea-image {
-    background-image: url('./resources/Afternoon-tea-inspiration.jpg');
+    background-image: url('resources/christmas_tea_background.webp');
 }
 .about-image {
     background-image: url('./resources/about-image.jpg');
@@ -305,16 +306,17 @@ iframe #form-heading-00000002-acc {
 /* afternoon tea page styles ============================*/
 .tea-square {
     width: 35%;
+    line-height: 0.9rem;
 }
 .afternoon-tea-menu {
-    background-image: url('./resources/tea-menu.jpg');
+    background-image: url('resources/background-afternoon-tea-menu.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     
 }
 .afternoon-tea-booking {
-    background-image: url('./resources/booking-form.jpg');
+    background-image: url('resources/background-afternoon-tea-booking.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

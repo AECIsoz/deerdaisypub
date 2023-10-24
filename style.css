@@ -240,9 +240,6 @@ p {
     .info-text h3 {
         font-size: 1.2rem;
     }
-    .info-text a {
-        font-size: 1.2rem;
-    }
     .pub {
         background-position: center;
     }
@@ -340,6 +337,10 @@ iframe #form-heading-00000002-acc {
     .tea-square {
         margin-bottom: 20px;
         width: 80%;
+    }
+
+    .tea-square h3 {
+        line-height: 1.8rem;
     }
 }
 

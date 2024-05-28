@@ -57,6 +57,20 @@ h2 {
   background-image: url("./resources/about-image.jpg");
   background-position: center;
 }
+
+.intro-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.intro-container .third {
+  width: 30%;
+}
+
+.intro-container .two-third {
+  width: 70%;
+} 
+
 .intro-text {
   display: flex;
   flex-direction: column;

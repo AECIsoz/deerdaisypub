@@ -118,6 +118,15 @@ p {
   h3 {
     font-size: 1.1rem;
   }
+
+  .intro-container {
+    flex-direction: column;
+  }
+
+  .intro-container .two-thirds, .intro-container .third {
+    width: 100%;
+  }
+
   .intro-text {
     margin: 30px;
     justify-content: center;

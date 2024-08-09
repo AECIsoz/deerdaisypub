@@ -1,10 +1,10 @@
 class Footer extends HTMLElement {
-    constructor() {
-      super();
-    }
-  
-    connectedCallback() {
-      this.innerHTML = `
+  constructor() {
+    super();
+  }
+
+  connectedCallback() {
+    this.innerHTML = `
         <style>
         .footer-container {
             display: inline-flex;
@@ -59,7 +59,7 @@ class Footer extends HTMLElement {
             </article>
             <article class="icons">
                 <a target="_blank" href="https://www.facebook.com/deerdaisypub"><i class="fab fa-facebook"></i></a>
-                <a target="_blank" href="https://www.instagram.com/deerdaisypub"><i class="fab fa-instagram"></i></a>
+                <a target="_blank" href="https://www.instagram.com/deerdaisyinn"><i class="fab fa-instagram"></i></a>
             </article>
             <article class="attributions">
               <p>Attributions:</p>
@@ -74,7 +74,7 @@ class Footer extends HTMLElement {
             </article>
         </footer>
       `;
-    }
   }
-  
-  customElements.define('footer-component', Footer);
+}
+
+customElements.define("footer-component", Footer);

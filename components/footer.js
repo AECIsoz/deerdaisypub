@@ -59,7 +59,7 @@ class Footer extends HTMLElement {
             </article>
             <article class="icons">
                 <a target="_blank" href="https://www.facebook.com/deerdaisypub"><i class="fab fa-facebook"></i></a>
-                <a target="_blank" href="https://www.instagram.com/deerdaisypub"><i class="fab fa-instagram"></i></a>
+                <a target="_blank" href="https://www.instagram.com/deerdaisyinn"><i class="fab fa-instagram"></i></a>
             </article>
             <article class="attributions">
               <p>Attributions:</p>

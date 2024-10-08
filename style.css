@@ -51,7 +51,7 @@ h2 {
   background-image: url("./resources/wine_and_beer_glass_and_crips_on_table_by_fire.jpg");
 }
 .tea-image {
-  background-image: url("resources/Afternoon-tea-inspiration.jpg");
+  background-image: url("resources/christmas_tea_background.webp");
 }
 .about-image {
   background-image: url("./resources/about-image.jpg");
@@ -74,6 +74,7 @@ h2 {
 .intro-text {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 40%;
   padding: 30px;
   margin-left: 30px;

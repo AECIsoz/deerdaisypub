@@ -55,6 +55,8 @@ class Footer extends HTMLElement {
             <article>
             <p>The Deer & Daisy <br>
             Eliselundsvägen 2, 277 30  Kivik</p>
+            <p>072-403 01 85</p>
+            <p>info@deerdaisyinn.se</p>
               <p>&copy; 2022 Isoz Creative Web</p>
             </article>
             <article class="icons">

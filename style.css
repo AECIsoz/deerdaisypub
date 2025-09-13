@@ -21,6 +21,9 @@ h2 {
   padding-right: 30px;
 }
 
+.footnote {
+  font-size: 10px;
+}
 /* main container for smaller screens !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 @media only screen and (max-width: 1200px) {
   .main-container {
@@ -60,7 +63,7 @@ h2 {
 
 .intro-container {
   display: flex;
-  justify-content: space-around;
+  /*justify-content: space-around;*/
 }
 
 .intro-container .third {
@@ -69,13 +72,13 @@ h2 {
 
 .intro-container .two-third {
   width: 70%;
-} 
+}
 
 .intro-text {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 40%;
+  width: 50%;
   padding: 30px;
   margin-left: 30px;
   margin-bottom: 20px;
@@ -124,7 +127,8 @@ p {
     flex-direction: column;
   }
 
-  .intro-container .two-thirds, .intro-container .third {
+  .intro-container .two-thirds,
+  .intro-container .third {
     width: 80%;
   }
 
@@ -203,6 +207,7 @@ p {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  line-height: 1.3rem;
   background-color: rgba(255, 255, 255, 0.479);
   transition: background-color 1s;
 }

@@ -122,21 +122,21 @@ h4 {
   background-attachment: fixed;
 }
 .home-image {
-  background-image: url("./resources/A_black_labrador_sits_quietly_by_the_fire_in_an_English_pub.jpg");
+  background-image: url("./resources/A_black_labrador_sits_quietly_by_the_fire_in_an_English_pub.webp");
 }
 .pub-image {
-  background-image: url("./resources/wine_and_beer_glass_and_crips_on_table_by_fire.jpg");
+  background-image: url("./resources/wine_and_beer_glass_and_crips_on_table_by_fire.webp");
 }
 .tea-image {
-  background-image: url("resources/Afternoon-tea-inspiration.jpg");
+  background-image: url("resources/Afternoon-tea-inspiration.webp");
 }
 
 .rental-image {
-  background-image: url("resources/annexe_exterior_8.jpg");
+  background-image: url("resources/annexe_exterior_8.webp");
 }
 
 .about-image {
-  background-image: url("./resources/about-image.jpg");
+  background-image: url("./resources/about-image.webp");
   background-position: center;
 }
 

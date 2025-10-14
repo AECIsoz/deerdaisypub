@@ -577,6 +577,10 @@ iframe #form-heading-00000002-acc {
   .rental-container {
     width: 80%;
   }
+
+  .rental-item img:hover {
+    transform: scale(2);
+  }
 }
 
 @media only screen and (max-width: 600px) {

@@ -238,15 +238,15 @@ p {
 
 @media only screen and (max-width: 500px) {
   h3 {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     margin-top: 10px;
   }
   .intro-text p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     margin-bottom: 0.8rem;
   }
   .intro-text a {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
   .main-image {
     align-items: center;

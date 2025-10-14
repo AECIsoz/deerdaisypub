@@ -39,7 +39,7 @@ class Header extends HTMLElement {
     }
     .logo {
         display: inline-flex;
-        justify-content: center;
+        justify-content: flex-end;
         width: 25%;
     }
     .logo img {
@@ -63,7 +63,7 @@ class Header extends HTMLElement {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 5px 10px;
+        padding: 2px 10px;
         border-radius: 5px;
     }
     .nav-container li:hover {
@@ -143,14 +143,82 @@ class Header extends HTMLElement {
         .header-container {
             display: none;
         }
+
         .header-small {
-            display: block;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
         }
         
         .small-header-logo h1 {
-            font-size: 2rem;
-            padding-left: 30px;
+            font-size: 1.8rem;
+            padding-left: 10px;
         }
+        
+        /* Hide the Checkbox */
+        #menu-toggle {
+            display: none;
+        }
+            
+        /* Hamburger Icon */
+        .menu-icon {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        width: 24px;
+        gap: 6px;
+        }
+
+        .menu-icon span {
+        background-color: #333;
+        height: 2px;
+        border-radius: 2px;
+        transition:
+            transform 0.3s,
+            background-color 0.3s;
+        }
+
+        /* Menu Styles */
+        .menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: #FAF8EB;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu li {
+        padding: 10px 20px;
+        }
+
+        .menu li a {
+        text-decoration: none;
+        color: #333;
+        }
+
+        /* Show Menu on Checkbox Checked */
+        #menu-toggle:checked ~ .menu {
+        display: block;
+        }
+
+        /* Animate Hamburger Icon */
+        #menu-toggle:checked + .menu-icon span:nth-child(1) {
+        transform: rotate(45deg) translateY(10px);
+        }
+
+        #menu-toggle:checked + .menu-icon span:nth-child(2) {
+        background-color: transparent;
+        }
+
+        #menu-toggle:checked + .menu-icon span:nth-child(3) {
+        transform: rotate(-45deg) translateY(-10px);
+        }
+        
+
     }
     @media only screen and (max-width: 550px) {
         a {
@@ -158,7 +226,7 @@ class Header extends HTMLElement {
             font-weight: 500;   
         }
         .small-header-logo h1 {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             padding-left: 30px;
         }
         .small-header-logo {
@@ -177,6 +245,7 @@ class Header extends HTMLElement {
                 <ul class="menu-items">
                     <li><a href="home_eng.html">Home</a></li>
                     <li><a href="index_eng.html">Afternoon Tea</a></li>
+                    <li><a href="rental_eng.html">The Annexe</a></li>
                     <li><a href="pub_eng.html">Pub</a></li>
                     <li><a href="about_us_eng.html">About us</a></li>
                     <li><a href="contact_eng.html">Contact</a></li>
@@ -191,10 +260,18 @@ class Header extends HTMLElement {
                 <img src="./resources/logo_utan_text.jpg" alt="logo artwork of a deer head with a daisy in it's mouth and green leaves gently falling around it">
                 <h1>The Deer & Daisy</h1>
             </div>            
-            <div class="small-header-menu">
-                <ul>
+            
+            <div class="hamburger-menu">
+                <input type="checkbox" id="menu-toggle" />
+                <label for="menu-toggle" class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                </label>
+                <ul class= "menu">
                     <li><a href="home_eng.html">Home</a></li>
                     <li><a href="index_eng.html">Afternoon Tea</a></li>
+                    <li><a href="rental_eng.html">The Annexe</a></li>
                     <li><a href="pub_eng.html">Pub</a></li>
                     <li><a href="about_us_eng.html">About us</a></li>
                     <li><a href="contact_eng.html">Contact</a></li>
@@ -207,7 +284,7 @@ class Header extends HTMLElement {
   }
 }
 
-customElements.define('header-component', Header);
+customElements.define("header-component", Header);
 
 /*function makeGray() {
     document.getElementById('logotype').style.backgroundColor = '#FBF7EB';

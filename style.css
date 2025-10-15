@@ -564,7 +564,7 @@ iframe #form-heading-00000002-acc {
 .rental-container .email {
   text-align: center;
 }
-p.email > span:nth-child(2) {
+p.email > span:nth-child(1) {
   display: none;
 }
 

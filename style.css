@@ -561,10 +561,8 @@ iframe #form-heading-00000002-acc {
   transform: scale(1.2);
   box-shadow: 5px 5px 20px #9a9797;
 }
-.rental-container .email {
-  text-align: center;
-}
-p.email > span:nth-child(1) {
+
+div.email > span:nth-child(2) {
   display: none;
 }
 

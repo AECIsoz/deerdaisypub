@@ -238,7 +238,7 @@ p,
 
 @media only screen and (max-width: 500px) {
   h3 {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     margin-top: 10px;
   }
   .intro-text p {
@@ -260,6 +260,10 @@ p,
   }
   .intro-text:hover {
     background-color: rgba(250, 248, 235, 0.9);
+  }
+
+  .btn {
+    margin-bottom: 10px;
   }
 }
 

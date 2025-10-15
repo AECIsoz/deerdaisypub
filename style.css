@@ -47,7 +47,6 @@ h4 {
 
 .back-btn {
   background-color: #fadcd9;
-  width: 10%;
 }
 
 .btn-box {
@@ -183,7 +182,8 @@ h3 {
 .intro-text a {
   color: black;
 }
-p {
+p,
+.email {
   color: black;
   font-family: "Open Sans", sans-serif;
   margin-top: 0;
@@ -560,6 +560,12 @@ iframe #form-heading-00000002-acc {
 .rental-item img:hover {
   transform: scale(1.2);
   box-shadow: 5px 5px 20px #9a9797;
+}
+.rental-container .email {
+  text-align: center;
+}
+p.email > span:nth-child(2) {
+  display: none;
 }
 
 @media only screen and (max-width: 900px) {

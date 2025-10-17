@@ -60,8 +60,8 @@ class Footer extends HTMLElement {
               <p>&copy; 2022 Isoz Creative Web</p>
             </article>
             <article class="icons">
-                <a target="_blank" href="https://www.facebook.com/deerdaisypub" alt="facebook icon"><i class="fab fa-facebook"></i></a>
-                <a target="_blank" href="https://www.instagram.com/deerdaisyinn" alt="instagram icon"><i class="fab fa-instagram"></i></a>
+                <a target="_blank" href="https://www.facebook.com/deerdaisypub" title="facebook icon"><i class="fab fa-facebook"></i></a>
+                <a target="_blank" href="https://www.instagram.com/deerdaisyinn" title="instagram icon"><i class="fab fa-instagram"></i></a>
             </article>
             <article class="attributions">
               <p>Attributions:</p>

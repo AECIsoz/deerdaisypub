@@ -82,6 +82,7 @@ h4 {
 
 .footnote {
   font-size: 10px;
+  line-height: 1;
 }
 /* main container for smaller screens !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 @media only screen and (max-width: 1300px) {

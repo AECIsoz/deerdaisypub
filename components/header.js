@@ -262,7 +262,7 @@ class Header extends HTMLElement {
                     <li><a href="rental.html">Gårdshuset</a></li>
                     <li><a href="pub.html">Pub</a></li>
                     <li><a href="about_us.html">Om oss</a></li>
-                    <li><a href="contact.html">Kontakt</a></li>
+                    <li><a href="https://deerdaisyforms.netlify.app/contact">Kontakt</a></li>
                     <li><a href="index.html">Svenska / </a><a href="index_eng.html">English</a></li>
                 </ul>
             </div>
@@ -288,7 +288,7 @@ class Header extends HTMLElement {
                     <li><a href="rental.html">Gårdshuset</a></li>
                     <li><a href="pub.html">Pub</a></li>
                     <li><a href="about_us.html">Om oss</a></li>
-                    <li><a href="contact.html">Kontakt</a></li>
+                    <li><a href="https://deerdaisyforms.netlify.app/contact">Kontakt</a></li>
                     <li><a href="index.html">Svenska / </a><a href="index_eng.html">English</a></li>
                 </ul>
             </div>

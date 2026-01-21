@@ -84,6 +84,14 @@ h4 {
   font-size: 10px;
   line-height: 1;
 }
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 10px;
+}
+
 /* main container for smaller screens !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 @media only screen and (max-width: 1300px) {
   .btn,
@@ -147,6 +155,7 @@ h4 {
 .intro-container,
 .rental-container {
   display: flex;
+  justify-content: center;
 }
 
 .intro-container .third {
@@ -368,7 +377,7 @@ p,
 }
 
 .rental-one {
-  background-image: url("./resources/Christmas_1.jpg");
+  background-image: url("./resources/annexe_living_1.webp");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -380,7 +389,7 @@ p,
 }
 
 .rental-three {
-  background-image: url("./resources/Christmas_8.jpg");
+  background-image: url("./resources/annexe_bedroom_2.webp");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -626,6 +635,7 @@ div.email > span:nth-child(2) {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-top: 30px;
   background-color: #42001d;
 }
 .gallery-item {
@@ -651,14 +661,6 @@ div.email > span:nth-child(2) {
   align-items: center;
   text-align: center;
   width: 100%;
-}
-
-.flex {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  margin-top: 20px;
-  padding: 10px;
 }
 
 #grid-container {

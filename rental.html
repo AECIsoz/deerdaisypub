@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="sv">
   <head>
     <meta charset="UTF-8" />
@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Inspiration från gårdshuset som du kan hyra över jul och nyår."
+      content="Inspiration från gårdshuset som du kan hyra året runt."
     />
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -36,7 +36,7 @@
         <article class="main-image rental-image">
           <h2 class="tagline">Ett hem fast du är borta</h2>
           <div class="intro-container">
-            <div class="intro-text third">
+            <div class="intro-text">
               <h3>Semesterbostad på The Deer & Daisy</h3>
               <p>
                 Vill du semestra mitt i Kivik med havsutsikt,tillgång till en
@@ -50,7 +50,32 @@
                 färger på väggarna och en underbar havsutsikt.
               </p>
             </div>
-            <div class="intro-text two-thirds">
+            <div class="intro-text third">
+              <h3>Boka gårdshuset</h3>
+              <p>
+                Du kan boka gårdshuset direkt genom att
+                <a href="mailto:info@deerdaisyinn.se">mejla oss</a> eller ringa
+                076-025 17 97. Det går också fint att boka genom AirBnB eller
+                booking.com om du föredrar det.
+              </p>
+              <div class="flex">
+                <button class="btn">
+                  <a
+                    href="https://www.airbnb.se/rooms/43990247?guests=1&adults=1&s=67&unique_share_id=6626c0b5-c787-4a0e-b2a4-808faf0842cc"
+                    target="_blank"
+                    >AirBnB</a
+                  >
+                </button>
+                <button class="btn">
+                  <a
+                    href="https://www.booking.com/hotel/se/charming-holiday-home-in-the-middle-of-kivik.sv.html"
+                    target="blank"
+                    >booking.com</a
+                  >
+                </button>
+              </div>
+            </div>
+            <!--<div class="intro-text two-thirds">
               <h3>Engelsk julstämning hela december 2025</h3>
               <p>
                 Från och med 29 november är gårdshuset pyntat för engelsk jul.
@@ -72,7 +97,7 @@
                   <a href="gallery.html"> Bilder från gårdshuset</a>
                 </button>
               </div>
-            </div>
+            </div>-->
           </div>
         </article>
       </div>
@@ -98,25 +123,25 @@
     <article class="products">
       <div class="rental-one info-box">
         <div class="rental-text">
-          <h3>Julstämning</h3>
-          <p>Upplagt för umgänge mellan granen och den elektriska brasan.</p>
+          <h3>Generösa sällskapsytor</h3>
+          <p>Upplagt för umgänge, avkoppling och mys i en hemtrevlig miljö.</p>
         </div>
       </div>
       <div class="rental-two info-box">
         <div class="rental-text">
-          <h3>Duka för fest</h3>
+          <h3>Kök och matsal</h3>
           <p>
             Köket är utrustat för att du ska kunna laga allt från en härlig
-            frukost till ett dignande julbord.
+            frukost till en trerätters middag.
           </p>
         </div>
       </div>
       <div class="rental-three info-box">
         <div class="rental-text">
-          <h3>God julsömn</h3>
+          <h3>En god natts sömn</h3>
           <p>
-            Efter allt julfirande är det ljuvligt att krypa ner mellan mjuka
-            flanellakan och få en god natts sömn.
+            På övervåningen finns tre bekväma sovrum med allt du behöver för att
+            sova gott.
           </p>
         </div>
       </div>
@@ -138,8 +163,131 @@
       </div>
     </aside>
 
-    <!-- info and photo section =================================-->
-    <article class="products">
+    <!-- gallery section ==================================-->
+    <div class="gallery-container">
+      <div class="gallery-item">
+        <img
+          src="resources/annexe_exterior_1.webp"
+          alt="del av en vit husgavel med körsbärsträd och blomrabatt framför"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="resources/annexe_exterior_2.webp"
+          alt="vitt hus snett uppifrån med lite pudrig snö på taket och i trädgården"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="resources/annexe_exterior_3.webp"
+          alt="gavel av vitt hus på kvällen med adventsljus i fönstren"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="resources/annexe_exerior_4.webp"
+          alt="vitt hus bakom träd med höstfärger"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="resources/annexe_living_1.webp"
+          alt="interiör med två ljusa soffor mitt emot varandra och soffbord mellan, öppen spis med elektrisk brasa"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="resources/annexe_living_2.webp"
+          alt="interiör med två ljusa soffor mitt emot varandra och soffbord mellan, öppen spis med elektrisk brasa"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="resources/annexe_living_3.webp"
+          alt="interiör med två ljusa soffor mitt emot varandra och soffbord mellan, öppen spis med elektrisk brasa"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="resources/annexe_living_4.webp"
+          alt="skrivbord med grön lampa och en öppen bok"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="resources/annexe_dining_2.webp"
+          alt="brunt träbord dukat för afternoon tea"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="resources/annexe_kitchen_1.webp"
+          alt="del av mörkgrönt kök med arbetsbänk och mörka bjälkar i taket"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="resources/annexe_kitchen_2.webp"
+          alt="del av mörkgrönt kök med arbetsbänk och mörka bjälkar i taket"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="resources/annexe_kitchen_3.webp"
+          alt="del av mörkgrönt kök med arbetsbänk, häll och fläktkåpa i rostfritt stål"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="resources/annexe_bedroom_1.webp"
+          alt="dubbelsäng med vita bordslampor på sidorna mot en grön och gul blommig tapet"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="resources/annexe_bedroom_4.webp"
+          alt="del av dubbelsäng med vita bordslampor på sidorna mot en rosa blommig tapet och fönster med lätta gardiner"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="resources/annexe_bedroom_2.webp"
+          alt="dubbelsäng med vita bordslampor på sidorna mot en rosa blommig tapet"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="resources/annexe_bedroom_3.webp"
+          alt="fönster med blommig gardin och en enkelsäng under, rosa väggar"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="resources/annexe_view.webp"
+          alt="balkongräcke i trä med utsikt över träd och havet i bakgrunden"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="resources/annexe_veranda.webp"
+          alt="uterum med trämöbler med ljusa dynor och ett fönster överväxt av blåregn"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="resources/annexe_plan_1.webp"
+          alt="handritad planlösning övre planet"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="resources/annexe_plan_2.webp"
+          alt="handritad planlösning nedre planet"
+        />
+      </div>
+    </div>
+    <!-- seasonal info and photo section =================================-->
+    <!--<article class="products">
       <div class="rental-box">
         <div class="rental-item">
           <a href="resources\Christmas_3.webp"
@@ -170,7 +318,7 @@
           /></a>
         </div>
       </div>
-      <!-- info section =================================-->
+      info section =================================
       <div class="rental-container">
         <h3>Bokning och priser</h3>
         <p>Alla priser är för hela huset.</p>
@@ -247,7 +395,7 @@
           /></a>
         </div>
       </div>
-    </article>
+    </article>-->
 
     <!-- separator section =================================-->
     <aside class="separator">
